@@ -40787,4 +40787,88 @@ Total 64 (delta 2), reused 0 (delta 0)
 
 To git@heroku.com:firehose-octoberliz.git
  * [new branch]      master -> master
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ sublime
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ rails generate controller staticpages
+      create  app/controllers/staticpages_controller.rb
+      invoke  erb
+      create    app/views/staticpages
+      invoke  test_unit
+      create    test/functional/staticpages_controller_test.rb
+      invoke  helper
+      create    app/helpers/staticpages_helper.rb
+      invoke    test_unit
+      create      test/unit/helpers/staticpages_helper_test.rb
+      invoke  assets
+      invoke    coffee
+      create      app/assets/javascripts/staticpages.js.coffee
+      invoke    scss
+      create      app/assets/stylesheets/staticpages.css.scss
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   config/routes.rb
+#	deleted:    public/index.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	app/assets/javascripts/staticpages.js.coffee
+#	app/assets/stylesheets/staticpages.css.scss
+#	app/controllers/staticpages_controller.rb
+#	app/helpers/staticpages_helper.rb
+#	app/views/staticpages/
+#	firehose
+#	test/functional/staticpages_controller_test.rb
+#	test/unit/helpers/
+no changes added to commit (use "git add" and/or "git commit -a")
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git add --all
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   app/assets/javascripts/staticpages.js.coffee
+#	new file:   app/assets/stylesheets/staticpages.css.scss
+#	new file:   app/controllers/staticpages_controller.rb
+#	new file:   app/helpers/staticpages_helper.rb
+#	new file:   app/views/staticpages/index.html.erb
+#	modified:   config/routes.rb
+#	new file:   firehose
+#	deleted:    public/index.html
+#	new file:   test/functional/staticpages_controller_test.rb
+#	new file:   test/unit/helpers/staticpages_helper_test.rb
+#
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git commit
+Aborting commit due to empty commit message.
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git commit
+Aborting commit due to empty commit message.
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git commit 
+Aborting commit due to empty commit message.
+Liz-Cohens-MacBook-Pro:testapp lizcohen$ git commit -am "first push"
+[master 910198c] first push
+ Committer: Liz Cohen <lizcohen@Liz-Cohens-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 40821 insertions(+), 241 deletions(-)
+ create mode 100644 app/assets/javascripts/staticpages.js.coffee
+ create mode 100644 app/assets/stylesheets/staticpages.css.scss
+ create mode 100644 app/controllers/staticpages_controller.rb
+ create mode 100644 app/helpers/staticpages_helper.rb
+ create mode 100644 app/views/staticpages/index.html.erb
+ create mode 100644 firehose
+ delete mode 100644 public/index.html
+ create mode 100644 test/functional/staticpages_controller_test.rb
+ create mode 100644 test/unit/helpers/staticpages_helper_test.rb
 Liz-Cohens-MacBook-Pro:testapp lizcohen$ 
