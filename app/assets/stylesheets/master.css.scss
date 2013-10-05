@@ -1,0 +1,45 @@
+body 
+	{
+		background: url('cayman.jpg') no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	}
+
+	.custom-font-1
+
+{	
+	color:white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 100;
+	font-size: 44px;
+}	
+
+	.custom-font-2
+
+{	
+	color:white;
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 200;
+	font-size: 24px;
+}	
+
+	.button-color
+{
+	 background-color: hsl(69, 64%, 62%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfdf6", endColorstr="#c9dc60");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfdf6), to(#c9dc60));
+  background-image: -moz-linear-gradient(top, #fcfdf6, #c9dc60);
+  background-image: -ms-linear-gradient(top, #fcfdf6, #c9dc60);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfdf6), color-stop(100%, #c9dc60));
+  background-image: -webkit-linear-gradient(top, #fcfdf6, #c9dc60);
+  background-image: -o-linear-gradient(top, #fcfdf6, #c9dc60);
+  background-image: linear-gradient(#fcfdf6, #c9dc60);
+  border-color: #c9dc60 #c9dc60 hsl(69, 64%, 53%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59);
+}	
+
+
