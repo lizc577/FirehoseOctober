@@ -27,17 +27,17 @@ body
 
 	.button-color
 {
-	 background-color: hsl(69, 64%, 62%) !important;
+	   background-color: hsl(194, 31%, 62%) !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfdf6", endColorstr="#c9dc60");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfdf6), to(#c9dc60));
-  background-image: -moz-linear-gradient(top, #fcfdf6, #c9dc60);
-  background-image: -ms-linear-gradient(top, #fcfdf6, #c9dc60);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfdf6), color-stop(100%, #c9dc60));
-  background-image: -webkit-linear-gradient(top, #fcfdf6, #c9dc60);
-  background-image: -o-linear-gradient(top, #fcfdf6, #c9dc60);
-  background-image: linear-gradient(#fcfdf6, #c9dc60);
-  border-color: #c9dc60 #c9dc60 hsl(69, 64%, 53%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f8fafb", endColorstr="#80aebc");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f8fafb), to(#80aebc));
+  background-image: -moz-linear-gradient(top, #f8fafb, #80aebc);
+  background-image: -ms-linear-gradient(top, #f8fafb, #80aebc);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8fafb), color-stop(100%, #80aebc));
+  background-image: -webkit-linear-gradient(top, #f8fafb, #80aebc);
+  background-image: -o-linear-gradient(top, #f8fafb, #80aebc);
+  background-image: linear-gradient(#f8fafb, #80aebc);
+  border-color: #80aebc #80aebc hsl(194, 31%, 53%);
   color: #333 !important;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59);
 }	
