@@ -21,7 +21,8 @@
 		      </a>
 		 
 		      <!-- Be sure to leave the brand out there if you want it shown -->
-		      <a class="brand" href="#">Liz's Firehose</a>
+		      
+		      <%= link_to "Liz's Firehose", root_path, :class => "brand" %>
 		 
 		      <!-- Everything you want hidden at 940px or less, place within here -->
 		      <div class="nav-collapse collapse">
@@ -29,8 +30,12 @@
 		        <ul class="nav">
 		          <li class="active">
 		          	<li>
-		        <%= link_to 'my app', '#' %>
+		        		<%= link_to 'how ya feelin?', new_pic_path %>
 		        	</li>
+		          	<li>
+		        		<%= link_to 'my app', pics_path %>
+		        	</li>
+		        		
 		        </ul>
       	</div>
  
