@@ -1,12 +1,18 @@
-<div class="box span7 offset3">
-	<h1 class="custom-font-1">Upload Your Pic</h1>
+<div class="span5 offset5">
+	<h1 class="custom-font-1 text-center">Upload Your Pic</h1>
 <br/>
 	<%= simple_form_for @pic do |f| %>
-	<div class="pic-box">
-		<%= f.input :hour %>
-		<%= f.input :emotion %>
-		<%= f.input :learned %>
+		<div class="custom-font-2 text-center">
+		<%= f.input :hour, label: 'what time is it?' %>
+
+<br/>
+
+		<%= f.input :emotion, label: 'how do you feel?' %>
+
+<br/>		
+		<%= f.input :learned, label: 'what did you learn this hour?', :input_html => { :rows => 10 } %>
+<br/>
 		<%= submit_tag "Save my picture", :class => 'btn btn-large button-color' %>
-	</div>	
+		</div>	
 </div>
 <% end %>
