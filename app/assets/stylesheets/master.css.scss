@@ -5,6 +5,7 @@ body
   		-moz-background-size: cover;
   		-o-background-size: cover;
   		background-size: cover;
+  		color:white;
 	}
 
 	.custom-font-1
@@ -41,5 +42,10 @@ body
   color: #333 !important;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.59);
 }	
+
+.box h2, .box p, .box h1, .box h3
+{
+	color:white;
+}
 
 

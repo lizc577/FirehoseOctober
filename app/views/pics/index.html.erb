@@ -1,5 +1,17 @@
 <h1> My Pics</h1>
+	<% @pics.each do |pic| %>
+	<div class="box stolen-surfbox span4 offset2">
+		<h2>
+			Hour <%= pic.hour %>	
+		</h2>
 
-<% @pics.each do |pic| %>
-	<%= pic.inspect %>	
+		<h3>
+			I feel <%= pic.emotion %>
+		</h3>
+		
+		<p>
+			I learned that <%= pic.learned %>
+		</p>
+
+	</div>
 <% end %>
