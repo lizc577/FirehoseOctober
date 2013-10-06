@@ -1,17 +1,16 @@
-<h1> My Pics</h1>
-	<% @pics.each do |pic| %>
-	<div class="box pic-box span3 offset1">
-		<h2>
-			Hour <%= pic.hour %>	
-		</h2>
+	<h1 class="text-center"> My Pics</h1>
+		<% @pics.each do |pic| %>
+		<div class="pic-box span3 offset1">
+			<h2 class="custom-font-1">
+				Hour <%= pic.hour %>	
+			</h2>
+			<h3>
+				I feel <%= pic.emotion %>
+			</h3>
+			
+			<p class="custom-font-2">
+				I learned that <%= pic.learned %>
+			</p>
 
-		<h3>
-			I feel <%= pic.emotion %>
-		</h3>
-		
-		<p>
-			I learned that <%= pic.learned %>
-		</p>
-
-	</div>
+		</div>
 <% end %>
